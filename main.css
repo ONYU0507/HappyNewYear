@@ -1,0 +1,83 @@
+@font-face {
+    @font-face {
+        font-family: 'ONE-Mobile-POP';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+* {
+    font-family: 'BMkkubulimTTF-Regular';
+}
+
+body{
+    background: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#postcard {
+width: 500px;
+position: absolute;
+}
+
+.postcard-background{
+    width: 90%;
+    border-radius: 15px;
+}
+
+#msg-containor {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+}
+
+p {
+    color: rgb(0, 0, 178);
+    padding-left: 15px;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: bold;
+}
+.p-message {
+    width: 80%;
+}
+.p-name{
+    font-size: 25px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#btn-containor {
+    width: 400px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+button {
+    color: white;
+    background-color: rgba(221, 0, 0, 0.569);
+    width: 22%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 136, 0, 0.706);
+    color: black;
+}
